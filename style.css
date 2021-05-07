@@ -159,13 +159,13 @@ color: seashell;
     border: 1px solid #917513;
     border-radius: 15px;
     justify-content: center;
-    background-image: url('C:/Users/admin/Downloads/auth.webp');
+    background-image: url('C:/Users/admin/Documents/Github/wise/auth.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .Quotes2 {
-    background-image: url('C:/Users/admin/Downloads/aut.webp');
+    background-image: url('C:/Users/admin/Documents/Github/wise/aut.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -229,6 +229,9 @@ footer{
 text-align: center;
     color:seashell;
     margin-top: 2%;
+}
+.des {
+    text-align: center;
 }
 .foto{
     display:flex;
