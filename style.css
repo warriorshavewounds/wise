@@ -106,13 +106,16 @@ transition: width 0.3s;
     font-family: Trajan Bold;
 }
 .gallery-container{
+    height: calc(100vh-20px);
+    width: calc(100vw-20px);
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
-    height: auto;
     justify-content: center;
+    align-content: center;
     overflow: hidden;
     margin-bottom: 10%;
+
+
 }
 
 .gallery-item img{
@@ -122,6 +125,7 @@ transition: width 0.3s;
     display:block;
     border: 2px solid #917513;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 
@@ -140,6 +144,7 @@ color: seashell;
 }
 .init2,.init3{
     margin-left:5%;
+    text-align: center;
 }
 
 .p1{
@@ -154,10 +159,21 @@ color: seashell;
     border: 1px solid #917513;
     border-radius: 15px;
     justify-content: center;
+    background-image: url('C:/Users/admin/Downloads/auth.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Quotes2 {
+    background-image: url('C:/Users/admin/Downloads/aut.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .quote-text{
     text-align: center;
     align-items: center;
+    
 }
 .quotes-head{
     text-align: center;
