@@ -286,8 +286,8 @@ text-align: center;
        display:none;
    }
    .gallery-item img {
-       width:150px;
-       height:100px;
+       max-width:300px;
+       height:200px;
        display:block;
    }
 }
