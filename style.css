@@ -285,4 +285,9 @@ text-align: center;
    .navbar a{
        display:none;
    }
+   .gallery-item img {
+       width:150px;
+       height:100px;
+       display:block;
+   }
 }
