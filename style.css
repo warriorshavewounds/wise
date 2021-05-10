@@ -91,11 +91,32 @@ transition: width 0.3s;
     transition: width 0.3s;
 
 }
-.navbar label {
-    display:
+.navbare {
+    border-bottom: 1px solid #474758;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
 }
-.navbar #toggle {
-    display: 
+.menue {
+    margin: 0 30px 0 0;
+}
+.menue a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+ label {
+     margin: 0 40px 0 0;
+     font-size: 26px;
+     line-height: 70px;
+     width: 26px;
+     float: right;
+    display: none;
+}
+ #toggle {
+    display: none;
 }
 .banner-container {
     height: 700px;
@@ -288,24 +309,21 @@ text-align: center;
    .fot{
        display:none;
    }
-   .navbar {
-       display: block;
+   .menue {
+       display: none;
        text-align: center;
        width: 95%;
    }
-   .navbar li {
-       display: block;
-   }
-   .navbar label {
+   label {
        display: block;
        cursor:pointer;
    }
-   .navbar a{
+   .menue a {
        display:block;
        border-bottom: 1px solid #eaeaeb;
        margin:0px;
    }
-   .navbar #toggle:checked + .navbar {
+   #toggle:checked + .menue {
        display: block;
    }
    .gallery-item img {
