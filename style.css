@@ -302,7 +302,7 @@ text-align: center;
        border-bottom: 1px solid #eaeaeb;
        margin:0px;
    }
-   #toggle:checked + .navbar {
+   .navbar #toggle:checked + .navbar {
        display: block;
    }
    .gallery-item img {
