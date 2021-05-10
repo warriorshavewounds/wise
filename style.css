@@ -92,10 +92,10 @@ transition: width 0.3s;
 
 }
 .navbar label {
-    display:none
+    display:
 }
 .navbar #toggle {
-    display: none;
+    display: 
 }
 .banner-container {
     height: 700px;
@@ -292,6 +292,9 @@ text-align: center;
        display: none;
        text-align: center;
        width: 95%;
+   }
+   .navbar li {
+       display: block;
    }
    .navbar label {
        display: block;
