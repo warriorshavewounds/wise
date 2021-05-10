@@ -36,13 +36,14 @@ header{
   justify-content: center;
   position:fixed;
   top: 0;
-  
+  display: none;
 }
 
 .logo{
     width: 130px;
     height: 85px;
     filter: drop-shadow(1px 1px 1px black);
+    display: none;
 }
 .photon {
     text-align: center;
